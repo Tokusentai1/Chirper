@@ -47,6 +47,12 @@
             <x-primary-button class="ms-4">
                 {{ __('Register') }}
             </x-primary-button>
+
+            <x-primary-button class="ms-4">
+                <a href="/login/github" class="ms-4">
+                    Sign up with Github
+                </a>
+            </x-primary-button>
         </div>
     </form>
 </x-guest-layout>
